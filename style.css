@@ -12,6 +12,14 @@ body {
   padding: 20px 0 10px;
 }
 
+h2::first-letter {
+  color: white;
+  background-color: #f39042;
+  padding: 0.1em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 .principal {
   width: 100%;
   position: relative;
@@ -65,6 +73,7 @@ body {
   text-align: center;
   padding: 20px;
   background: url(imagens-projeto/plano-de-fundo.jpg);
+  background-size: cover;
 }
 
 .footer p {
@@ -74,10 +83,12 @@ body {
 }
 
 .caixa {
-  position: relative;
+  display: flex;
+  align-items: center;
   margin: 0px;
   padding: 15px;
   background: url(imagens-projeto/plano-de-fundo.jpg);
+  background-size: cover;
 }
 
 .caixa nav {
@@ -102,4 +113,12 @@ body {
 .caixa nav a:hover {
   color: #ed603d;
   text-decoration: underline;
+}
+
+video {
+  width: 350px;
+  height: 175px;
+  mix-blend-mode: difference;
+  background-color:#000000 ;
+  background-color: transparent;
 }
