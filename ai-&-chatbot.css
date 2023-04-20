@@ -1,4 +1,4 @@
 .principal h3 {
-  background: url(imagens-projeto/plano-de-fundo-principal.jpg);
+  background: linear-gradient(#000000, #131c2d, #000000);
   position: relative;
 }
