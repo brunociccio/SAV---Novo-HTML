@@ -20,6 +20,14 @@ h2::first-letter {
   font-size: 1.2em;
 }
 
+h4::first-letter {
+  color: white;
+  background-color: #f39042;
+  padding: 0.1em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 .principal {
   width: 100%;
   position: relative;
