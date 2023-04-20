@@ -1,0 +1,105 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  width: 100%;
+}
+
+.container h2 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #ed603d;
+  text-align: center;
+  padding: 20px 0 10px;
+}
+
+.principal {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(#000000, #131c2d, #000000);
+}
+
+.principal p {
+  font-style: normal;
+  font-size: 20px;
+  color: #f39042;
+  text-align: left;
+  padding: 10px 30px;
+}
+
+.principal h3 {
+  position: relative;
+  padding: 5px 120px 0px 120px;
+}
+
+.principal h4 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #ed603d;
+  text-align: center;
+  padding: 10px 0 0 0;
+}
+
+.principal h5 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #f47c5e;
+  text-align: center;
+  padding: 20px 0 10px;
+}
+
+.principal ul {
+  font-style: normal;
+  font-size: 20px;
+  color: #f39042;
+  text-align: left;
+  padding: 0 20px 20px;
+}
+
+.principal li:before {
+  content: "-";
+  margin: 10px;
+  color: #f39042;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: url(imagens-projeto/plano-de-fundo.jpg);
+}
+
+.footer p {
+  color: #f39042;
+  padding: 30px;
+  font-size: 15px;
+}
+
+.caixa {
+  position: relative;
+  margin: 0px;
+  padding: 15px;
+  background: url(imagens-projeto/plano-de-fundo.jpg);
+}
+
+.caixa nav {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.caixa nav li {
+  display: block;
+  margin: 8px;
+}
+
+.caixa nav a {
+  text-transform: uppercase;
+  color: #f39d5c;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.caixa nav a:hover {
+  color: #ed603d;
+  text-decoration: underline;
+}
