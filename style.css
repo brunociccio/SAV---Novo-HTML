@@ -121,12 +121,13 @@ h4::first-letter {
 .caixa nav a:hover {
   color: #ed603d;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 video {
   width: 350px;
   height: 175px;
   mix-blend-mode: difference;
-  background-color:#000000 ;
+  background-color: #000000;
   background-color: transparent;
 }
