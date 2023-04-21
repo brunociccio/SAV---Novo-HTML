@@ -1,0 +1,40 @@
+.equipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.integrante {
+  text-align: center;
+  margin: 20px;
+  flex-basis: 15%;
+}
+
+.integrante img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid #f39042;
+  padding: 5px;
+}
+
+.integrante p {
+  margin-top: 10px;
+}
+
+main {
+  background: linear-gradient(#000000, #131c2d, #000000);
+  font-size: 25px;
+  color: #f39042;
+}
+
+a {
+  font-size: 20px;
+  color: #f47c5e;
+}
+
+main a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  cursor: pointer;
+}
