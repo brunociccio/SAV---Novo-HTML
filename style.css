@@ -94,7 +94,7 @@ h4::first-letter {
   display: flex;
   align-items: center;
   margin: 0px;
-  padding: 15px;
+  padding: 13px;
   background: url(imagens-projeto/plano-de-fundo.jpg);
   background-size: cover;
 }
