@@ -30,12 +30,14 @@
 .github {
   font-size: 20px;
   color: #f47c5e;
+  font-weight: lighter;
 }
 
 main {
   background: linear-gradient(#000000, #131c2d, #000000);
   font-size: 25px;
   color: #f39042;
+  font-weight: bold;
 }
 
 main a:hover {
