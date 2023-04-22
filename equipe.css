@@ -11,26 +11,31 @@
 }
 
 .integrante img {
-  width: 200px;
-  height: 200px;
-  border-radius: 100%;
-  border: 2px solid #f39042;
-  padding: 5px;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 1px solid #f66f08;
+  padding: 3px;
 }
 
 .integrante p {
   margin-top: 10px;
 }
 
+.integrante img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.github {
+  font-size: 20px;
+  color: #f47c5e;
+}
+
 main {
   background: linear-gradient(#000000, #131c2d, #000000);
   font-size: 25px;
   color: #f39042;
-}
-
-a {
-  font-size: 20px;
-  color: #f47c5e;
 }
 
 main a:hover {
