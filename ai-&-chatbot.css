@@ -1,3 +1,8 @@
 .principal h3 {
   background: linear-gradient(#000000, #131c2d, #000000);
 }
+
+.principal img {
+  background-color: #ffffff;
+  padding: 15px;
+}
