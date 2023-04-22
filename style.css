@@ -5,10 +5,10 @@ body {
 }
 
 .container h1 img {
-  margin: 10px;
-  width: auto;
-  height: 220px;
-  filter: saturate(130%);
+  margin: 20px;
+  padding: 25px;
+  background-color: black;
+  background-size: cover;
 }
 
 .container h2 {
@@ -100,7 +100,7 @@ h4::first-letter {
 .caixa {
   display: flex;
   align-items: center;
-  margin: -25px;
+  margin: -35px;
   padding: 10px;
   background-size: cover;
 }
@@ -145,8 +145,8 @@ h4::first-letter {
 
 video {
   width: 400px;
-  height: 200px;
-  mix-blend-mode:lighten;
+  height: 220px;
+  mix-blend-mode: lighten;
   background-color: #000000;
-  margin: 20px;
+  margin: 25px;
 }
