@@ -4,6 +4,13 @@ body {
   width: 100%;
 }
 
+.container h1 img {
+  margin: 10px;
+  width: auto;
+  height: 220px;
+  filter: saturate(130%);
+}
+
 .container h2 {
   font-weight: bold;
   font-size: 50px;
@@ -93,7 +100,7 @@ h4::first-letter {
 .caixa {
   display: flex;
   align-items: center;
-  margin: 0px;
+  margin: -20px;
   padding: 13px;
   background-size: cover;
 }
@@ -141,5 +148,5 @@ video {
   height: 200px;
   mix-blend-mode:lighten;
   background-color: #000000;
-  margin: auto;
+  margin: 20px;
 }
